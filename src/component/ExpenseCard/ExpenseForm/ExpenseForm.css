@@ -1,0 +1,56 @@
+.Container{
+ display: flex;
+ justify-content: center; 
+}
+
+.Box{
+    width: 750px;
+    height: 200px;
+    background-color: teal;
+    margin: 20px 0 0 0;
+    border-radius: 20px;
+    padding: 20px;
+}
+label{
+    font-size: 25px;
+    font-weight: 900;
+    font-family: cursive;
+    margin: 0 0 0 15px;
+    color: white;
+}
+input{
+    outline: none;
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin: 0 0 0 15px;
+    font-size: 16px;
+    color: gray;
+}
+.Box1{
+    display: flex;
+}
+.form-box{
+    display: flex;
+    flex-direction: column;
+}
+.form-date{
+    display: flex;
+}
+
+button{
+    width: 200px;
+    height: 40px;
+    margin: 35px 0 0 45px;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+    border-radius: 20px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+    transition: all 0.5s linear;
+}
